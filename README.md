@@ -1,4 +1,4 @@
-# SlapMac
+# MacSlaps
 
 A macOS menu bar app that detects when you slap your laptop and plays a sound. That's it.
 
@@ -8,7 +8,7 @@ Made for Mac users.
 
 ## What it does
 
-SlapMac listens to your microphone and detects sudden loud impacts — like slapping the side of your laptop. When it hears one, it plays a random audio response. Lives in your menu bar and stays out of your way.
+MacSlaps listens to your microphone and detects sudden loud impacts — like slapping the side of your laptop. When it hears one, it plays a random audio response. Lives in your menu bar and stays out of your way.
 
 - Menu bar icon shows when it's active
 - Adjustable sensitivity slider
@@ -43,7 +43,7 @@ The compiled app will be at `Build/Products/Release/SlapMac.app`.
 
 ## Launch at Login
 
-To have SlapMac start automatically when you log in:
+To have MacSlaps start automatically when you log in:
 
 1. Open **System Settings** → **General** → **Login Items**
 2. Click the **+** button under "Open at Login"
