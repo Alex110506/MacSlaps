@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* SlapMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* SlapMacApp.swift */; };
+		A10002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* AppDelegate.swift */; };
+		A10003 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20003 /* StatusBarController.swift */; };
+		A10004 /* SlapDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004 /* SlapDetector.swift */; };
+		A10005 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20005 /* SoundPlayer.swift */; };
+		A10006 /* groan-female-long-epic-stock-media-1-00-00.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1E028F2F7AB0F6009A7037 /* groan-female-long-epic-stock-media-1-00-00.wav */; };
+		A10007 /* moan-pleasure-female-epic-stock-media-1-00-00.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1E02902F7AB0F6009A7037 /* moan-pleasure-female-epic-stock-media-1-00-00.wav */; };
+		A10008 /* moan-soft-short-female-smartsound-fx-1-1-00-00.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1E02912F7AB0F6009A7037 /* moan-soft-short-female-smartsound-fx-1-1-00-00.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20001 /* SlapMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapMacApp.swift; sourceTree = "<group>"; };
+		A20002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20003 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		A20004 /* SlapDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapDetector.swift; sourceTree = "<group>"; };
+		A20005 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		A20006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20007 /* SlapMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlapMac.entitlements; sourceTree = "<group>"; };
+		A30001 /* SlapMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlapMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1E028F2F7AB0F6009A7037 /* groan-female-long-epic-stock-media-1-00-00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "groan-female-long-epic-stock-media-1-00-00.wav"; sourceTree = "<group>"; };
+		EB1E02902F7AB0F6009A7037 /* moan-pleasure-female-epic-stock-media-1-00-00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "moan-pleasure-female-epic-stock-media-1-00-00.wav"; sourceTree = "<group>"; };
+		EB1E02912F7AB0F6009A7037 /* moan-soft-short-female-smartsound-fx-1-1-00-00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "moan-soft-short-female-smartsound-fx-1-1-00-00.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10006 /* groan-female-long-epic-stock-media-1-00-00.wav in Resources */,
+				A10007 /* moan-pleasure-female-epic-stock-media-1-00-00.wav in Resources */,
+				A10008 /* moan-soft-short-female-smartsound-fx-1-1-00-00.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50001 = {
+			isa = PBXGroup;
+			children = (
+				A50002 /* SlapMac */,
+				A50003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50002 /* SlapMac */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E028E2F7AB0E3009A7037 /* sounds */,
+				A20001 /* SlapMacApp.swift */,
+				A20002 /* AppDelegate.swift */,
+				A20003 /* StatusBarController.swift */,
+				A20004 /* SlapDetector.swift */,
+				A20005 /* SoundPlayer.swift */,
+				A20006 /* Info.plist */,
+				A20007 /* SlapMac.entitlements */,
+			);
+			path = SlapMac;
+			sourceTree = "<group>";
+		};
+		A50003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30001 /* SlapMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB1E028E2F7AB0E3009A7037 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E028F2F7AB0F6009A7037 /* groan-female-long-epic-stock-media-1-00-00.wav */,
+				EB1E02902F7AB0F6009A7037 /* moan-pleasure-female-epic-stock-media-1-00-00.wav */,
+				EB1E02912F7AB0F6009A7037 /* moan-soft-short-female-smartsound-fx-1-1-00-00.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60001 /* SlapMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80002 /* Build configuration list for PBXNativeTarget "SlapMac" */;
+			buildPhases = (
+				A70001 /* Sources */,
+				A40001 /* Frameworks */,
+				A40002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlapMac;
+			productName = SlapMac;
+			productReference = A30001 /* SlapMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A80001 /* Build configuration list for PBXProject "SlapMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50001;
+			productRefGroup = A50003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60001 /* SlapMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* SlapMacApp.swift in Sources */,
+				A10002 /* AppDelegate.swift in Sources */,
+				A10003 /* StatusBarController.swift in Sources */,
+				A10004 /* SlapDetector.swift in Sources */,
+				A10005 /* SoundPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A90003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SlapMac/SlapMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlapMac/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "SlapMac uses the microphone to detect slaps on your laptop.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexr.SlapMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A90004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SlapMac/SlapMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlapMac/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "SlapMac uses the microphone to detect slaps on your laptop.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexr.SlapMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80001 /* Build configuration list for PBXProject "SlapMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90001 /* Debug */,
+				A90002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80002 /* Build configuration list for PBXNativeTarget "SlapMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90003 /* Debug */,
+				A90004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00001 /* Project object */;
+}
