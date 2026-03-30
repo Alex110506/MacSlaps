@@ -49,7 +49,7 @@ To have MacSlaps start automatically when you log in:
 2. Click the **+** button under "Open at Login"
 3. Navigate to `SlapMac.app` and select it
 
-After that, SlapMac will start silently in your menu bar every time you log in.
+After that, MacSlaps will start silently in your menu bar every time you log in.
 
 ## Sensitivity
 
