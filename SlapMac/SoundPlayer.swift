@@ -6,9 +6,7 @@ final class SoundPlayer {
     private var lastIndex: Int?
 
     private static let soundFileNames = [
-        "groan-female-long-epic-stock-media-1-00-00",
-        "moan-pleasure-female-epic-stock-media-1-00-00",
-        "moan-soft-short-female-smartsound-fx-1-1-00-00",
+        //add sound file names from /sounds folder (no extension)
     ]
 
     init() {
